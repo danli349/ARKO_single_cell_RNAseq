@@ -1,0 +1,6 @@
+{
+  "coordFiles": [
+    "UMAP.coords.tsv.gz"
+  ],
+  "matrixFile": "my_interactive_portal/my_cluster_dataset/exprMatrix.tsv.gz"
+}

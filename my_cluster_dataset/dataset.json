@@ -1,0 +1,364 @@
+{
+  "fileVersions": {
+    "inMeta": {
+      "fname": "/mnt/d/R/seurat/T2AR_2/cb_workspace/cellbrowser_raw_data/meta.tsv",
+      "md5": "87353ce7e5",
+      "size": 3220825,
+      "mtime": "2026-09-02 21:21:16"
+    },
+    "colors:sample": {
+      "fname": "/mnt/d/R/seurat/T2AR_2/cb_workspace/cellbrowser_raw_data/cellbrowser_raw_data/sample_colors.tsv",
+      "md5": "46079a9fc9",
+      "size": 169,
+      "mtime": "2026-09-02 19:51:51"
+    },
+    "outMeta": {
+      "fname": "my_interactive_portal/my_cluster_dataset/meta.tsv",
+      "md5": "87353ce7e5",
+      "size": 3220825,
+      "mtime": "2026-09-02 21:21:22"
+    },
+    "inMatrix": {
+      "fname": "/mnt/d/R/seurat/T2AR_2/cb_workspace/cellbrowser_raw_data/exprMatrix.tsv.gz",
+      "md5": "1943357cdb",
+      "size": 1213750071,
+      "mtime": "2026-09-02 21:08:29"
+    },
+    "exprMatrix": {
+      "fname": "my_interactive_portal/my_cluster_dataset/exprMatrix.json",
+      "md5": "f2a905211c",
+      "size": 576226,
+      "mtime": "2026-09-02 21:27:22"
+    },
+    "outMatrix": {
+      "fname": "my_interactive_portal/my_cluster_dataset/exprMatrix.tsv.gz",
+      "md5": "1943357cdb",
+      "size": 1213750071,
+      "mtime": "2026-09-02 21:21:31"
+    },
+    "conf": {
+      "fname": "/mnt/d/R/seurat/T2AR_2/cb_workspace/cellbrowser_raw_data/cellbrowser.conf",
+      "md5": "4a82b60ddc",
+      "size": 1014,
+      "mtime": "2026-09-02 21:21:16"
+    }
+  },
+  "matrixArrType": "Float32",
+  "sampleCount": 92371,
+  "matrixWasFiltered": false,
+  "metaFields": [
+    {
+      "name": "cellId",
+      "label": "cellId",
+      "type": "uniqueString",
+      "maxSize": 18,
+      "diffValCount": 92371,
+      "md5": "d472f809f9"
+    },
+    {
+      "name": "CellType",
+      "label": "CellType",
+      "type": "enum",
+      "valCounts": [
+        [
+          "Basal",
+          32939
+        ],
+        [
+          "Wnt+ Mesenchymal",
+          17081
+        ],
+        [
+          "Luminal CR",
+          8675
+        ],
+        [
+          "Igf+ Mesenchymal",
+          6974
+        ],
+        [
+          "Seminal Vesicle",
+          6403
+        ],
+        [
+          "Luminal V",
+          4093
+        ],
+        [
+          "Luminal 1",
+          3621
+        ],
+        [
+          "Luminal 2",
+          2477
+        ],
+        [
+          "Macrophage",
+          1847
+        ],
+        [
+          "CD8+T cell",
+          1601
+        ],
+        [
+          "CD4+T cell",
+          1560
+        ],
+        [
+          "Smooth Muscle",
+          1477
+        ],
+        [
+          "Endothelial",
+          1058
+        ],
+        [
+          "Luminal 3",
+          878
+        ],
+        [
+          "NK",
+          828
+        ],
+        [
+          "Ebf1+ Mesenchymal",
+          682
+        ],
+        [
+          "Fgf+ Mesenchymal",
+          177
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 17,
+      "md5": "1e1b6a2f3a"
+    },
+    {
+      "name": "sample",
+      "label": "sample",
+      "type": "enum",
+      "colors": [
+        "e377c2",
+        "8c564b",
+        "279e68",
+        "b5bd61",
+        "aec7e8",
+        "17becf",
+        "1f77b4",
+        "aa40fc",
+        "d62728",
+        "ff7f0e"
+      ],
+      "valCounts": [
+        [
+          "TYAC5d",
+          12397
+        ],
+        [
+          "TYA2w",
+          11038
+        ],
+        [
+          "TYC2w",
+          11000
+        ],
+        [
+          "TYAC2w",
+          10391
+        ],
+        [
+          "TYACD2w",
+          10264
+        ],
+        [
+          "TYACD2d",
+          8202
+        ],
+        [
+          "TY2w",
+          8131
+        ],
+        [
+          "TYCD2w",
+          7280
+        ],
+        [
+          "TYCD2d",
+          7077
+        ],
+        [
+          "TYC5d",
+          6591
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 10,
+      "md5": "5407eab633"
+    }
+  ],
+  "labelField": "CellType",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "UMAP",
+      "md5": "8914b33f4d",
+      "gzip": true,
+      "minX": -5.8600245,
+      "maxX": 22.215868,
+      "minY": -10.271643,
+      "maxY": 17.97785,
+      "type": "Float32",
+      "textFname": "UMAP.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "hasFiles": [
+    "datasetDesc"
+  ],
+  "topMarkers": {
+    "Luminal 1": [
+      "Pbsn"
+    ],
+    "Luminal CR": [
+      "gene_name_EYFP"
+    ],
+    "Luminal 2": [
+      "gene_name_EYFP"
+    ],
+    "Luminal V": [
+      "Slc12a2"
+    ],
+    "Luminal 3": [
+      "Clcn5"
+    ],
+    "Basal": [
+      "Krt14"
+    ],
+    "Seminal Vesicle": [
+      "Pate4"
+    ],
+    "Wnt+ Mesenchymal": [
+      "Gsn"
+    ],
+    "Igf+ Mesenchymal": [
+      "Dcn"
+    ],
+    "Fgf+ Mesenchymal": [
+      "C3"
+    ],
+    "Ebf1+ Mesenchymal": [
+      "Igfbp7"
+    ],
+    "Smooth Muscle": [
+      "Acta2"
+    ],
+    "Macrophage": [
+      "Cd74"
+    ],
+    "NK": [
+      "Srgn"
+    ],
+    "CD4+T cell": [
+      "Srgn"
+    ],
+    "CD8+T cell": [
+      "Ptprc"
+    ],
+    "Endothelial": [
+      "Pecam1"
+    ]
+  },
+  "markers": [
+    {
+      "name": "markers_0",
+      "shortLabel": "Cluster Markers",
+      "clusterList": [
+        "Luminal 1",
+        "Luminal CR",
+        "Luminal 2",
+        "Luminal V",
+        "Luminal 3",
+        "Basal",
+        "Seminal Vesicle",
+        "Wnt+ Mesenchymal",
+        "Igf+ Mesenchymal",
+        "Fgf+ Mesenchymal",
+        "Ebf1+ Mesenchymal",
+        "Smooth Muscle",
+        "Macrophage",
+        "NK",
+        "CD4+T cell",
+        "CD8+T cell",
+        "Endothelial"
+      ]
+    }
+  ],
+  "quickGenes": [
+    [
+      "Pbsn",
+      "Luminal 1"
+    ],
+    [
+      "gene_name_EYFP",
+      "Luminal CR, Luminal 2"
+    ],
+    [
+      "Slc12a2",
+      "Luminal V"
+    ],
+    [
+      "Clcn5",
+      "Luminal 3"
+    ],
+    [
+      "Krt14",
+      "Basal"
+    ],
+    [
+      "Pate4",
+      "Seminal Vesicle"
+    ],
+    [
+      "Gsn",
+      "Wnt+ Mesenchymal"
+    ],
+    [
+      "Dcn",
+      "Igf+ Mesenchymal"
+    ],
+    [
+      "C3",
+      "Fgf+ Mesenchymal"
+    ],
+    [
+      "Igfbp7",
+      "Ebf1+ Mesenchymal"
+    ],
+    [
+      "Acta2",
+      "Smooth Muscle"
+    ],
+    [
+      "Cd74",
+      "Macrophage"
+    ],
+    [
+      "Srgn",
+      "NK, CD4+T cell"
+    ],
+    [
+      "Ptprc",
+      "CD8+T cell"
+    ],
+    [
+      "Pecam1",
+      "Endothelial"
+    ]
+  ],
+  "shortLabel": "my_cluster_dataset",
+  "defColorField": "CellType",
+  "name": "my_cluster_dataset",
+  "firstBuildTime": "2026-09-02T17:27:28.269742",
+  "lastBuildTime": "2026-09-02T18:19:47.310311",
+  "md5": "da8bb50ef2"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "my_cluster_dataset",
+  "shortLabel": "my_cluster_dataset",
+  "exprMatrix": "exprMatrix.tsv.gz",
+  "meta": "meta.tsv",
+  "geneIdType": "auto",
+  "defColorField": "CellType",
+  "labelField": "CellType",
+  "enumFields": [
+    "CellType"
+  ],
+  "coords": [
+    {
+      "file": "/mnt/d/R/seurat/T2AR_2/cb_workspace/cellbrowser_raw_data/umap_coords.tsv",
+      "shortLabel": "UMAP"
+    }
+  ],
+  "markers": [
+    {
+      "file": "/mnt/d/R/seurat/T2AR_2/cb_workspace/cellbrowser_raw_data/markers.tsv",
+      "shortLabel": "Cluster Markers"
+    }
+  ],
+  "quickGenesFile": "quickGenes.tsv",
+  "colors": {
+    "sample": "cellbrowser_raw_data/sample_colors.tsv"
+  },
+  "inDir": "cellbrowser_raw_data"
+}
