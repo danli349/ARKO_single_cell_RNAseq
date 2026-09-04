@@ -3,7 +3,7 @@ This repository contains our single cell RNAseq data of the ARKO project
 
 [![Single-Cell UMAP Visualizer](./img/umapadata_Dan_umap_leiden_r1.png)](https://danli349.github.io/ARKO_single_cell_RNAseq/) 
 
-[![Single-Cell UMAP Visualizer each sample](./img/umap_adata_Dan_clusters_each_sample_2.png)
+[![Single-Cell UMAP Visualizer each sample](./img/umap_adata_Dan_clusters_each_sample_2.png)]
 
 | Nomenclature | Treatment |
 | :--- | :--- |
